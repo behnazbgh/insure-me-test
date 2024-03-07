@@ -24,7 +24,7 @@ public class App
         WebDriver driver = new ChromeDriver(chromeOptions);
         //Open browser and navigate to the APP page we want to test
         System.out.println("script executing");
-        driver.get("http://18.189.2.242:8081/contact.html");
+        driver.get("http://18.116.230.225:8081/contact.html");
 
         //enable wait for 2s
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
